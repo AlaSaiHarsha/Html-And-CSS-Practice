@@ -18,7 +18,7 @@ public class ListAndStackColection {
 
                 while (b) {
                     System.out.println("Which Function You Want to perform \n1.add \n2.add it index \n3.add a new ArrayList " +
-                            "\n4.remove \n5.remove at index \n6.Update at Position \n7.Checks Wheather the element is present or not \n8.display");
+                            "\n4.remove \n5.remove at index \n6.Update at Position \n7.Checks Wheather the element is present or not \n8.display\n9.Exit");
                     int mechoice = s.nextInt();
                     int ele;
                     int pos;
@@ -87,7 +87,7 @@ public class ListAndStackColection {
                 LinkedList<Integer> list = new LinkedList<>();
                 while (b) {
                     System.out.println("Which Function You Want to perform \n1.add \n2.add it index \n3.add a new LinkedList " +
-                            "\n4.remove \n5.remove at index \n6.Update at Position \n7.Checks Wheather the element is present or not \n8.display");
+                            "\n4.remove \n5.remove at index \n6.Update at Position \n7.Checks Wheather the element is present or not \n8.display\n9.Exit");
                     int mechoice = s.nextInt();
                     int ele;
                     int pos;
@@ -159,7 +159,7 @@ public class ListAndStackColection {
             case 3:
                 Stack<Integer> stack = new Stack<>();
                 while (b) {
-                    System.out.println("\n1.push\n2.pop\n3.peek\n4.display");
+                    System.out.println("\n1.push\n2.pop\n3.peek\n4.display\n5.Exit");
                     int mechoice = s.nextInt();
                     int ele;
                     switch (mechoice) {
