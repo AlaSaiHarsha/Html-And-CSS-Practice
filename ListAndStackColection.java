@@ -159,7 +159,7 @@ public class ListAndStackColection {
             case 3:
                 Stack<Integer> stack = new Stack<>();
                 while (b) {
-                    System.out.println("\1.push\n2.pop\3.peek\4.display");
+                    System.out.println("\n1.push\n2.pop\n3.peek\n4.display");
                     int mechoice = s.nextInt();
                     int ele;
                     switch (mechoice) {
