@@ -86,7 +86,7 @@ public class ListAndStackColection {
             case 2:
                 LinkedList<Integer> list = new LinkedList<>();
                 while (b) {
-                    System.out.println("Which Function You Want to perform \1.add \n2.add it index \n3.add a new LinkedList " +
+                    System.out.println("Which Function You Want to perform \n1.add \n2.add it index \n3.add a new LinkedList " +
                             "\n4.remove \n5.remove at index \n6.Update at Position \n7.Checks Wheather the element is present or not \n8.display");
                     int mechoice = s.nextInt();
                     int ele;
@@ -106,7 +106,7 @@ public class ListAndStackColection {
                             break;
 
                         case 3:
-                            System.out.println("New LinkedList is begin added AND ENTER 2");
+                            System.out.println("New LinkedList");
                             List newArrayList=ListAndStackColection.listFunctions(2);
                             list.addAll(newArrayList);
                             break;
