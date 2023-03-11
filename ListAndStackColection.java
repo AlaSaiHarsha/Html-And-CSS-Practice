@@ -30,7 +30,7 @@ public class ListAndStackColection {
                             break;
 
                         case 2:
-                            System.out.println("Enter the element and its position to be set");
+                            System.out.println("Enter the position and element  to be set");
                             pos = s.nextInt();
                             ele = s.nextInt();
                             al.add(pos, ele);
@@ -99,7 +99,7 @@ public class ListAndStackColection {
                             break;
 
                         case 2:
-                            System.out.println("Enter the element and its position to be set");
+                            System.out.println("Enter the position and element  to be set");
                             pos = s.nextInt();
                             ele = s.nextInt();
                             list.add(pos, ele);
